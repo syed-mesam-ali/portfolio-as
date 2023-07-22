@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import hero from "./profileImg.png";
+import hero from "../../assets/profile-image/profileImg.png";
 
 const ProfComponent = () => {
   return (
