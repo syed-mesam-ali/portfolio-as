@@ -36,9 +36,11 @@ const ClientSlider = (props) => {
 export default ClientSlider;
 
 const Container = styled.div`
-  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  background: var(---background);
   padding: 1.5rem 1rem;
   margin: 0 1rem;
+  height: 280px;
+  overflow-y: auto;
 `;
 
 const Header = styled.div`
@@ -59,6 +61,7 @@ const Header = styled.div`
 const Body = styled.p`
   font-size: 0.8rem;
   margin-bottom: 1.5rem;
+  min-height: 70px;
 `;
 const Footer = styled.div`
   display: flex;
