@@ -15,6 +15,11 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+  const clearForm = () => {
+    setTimeout(() => {
+      document.getElementById("contact-form").reset();
+    }, 2000);
+  };
   return (
     <Container id="footer">
       <Profile>
@@ -26,7 +31,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>-</p>
           </Slide>
         </div>
         <div className="links">
@@ -38,7 +43,8 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              {/* <a href="tel:+4733378901">+47 333 78 901</a> */}
+              <a>-</a>
             </Slide>
           </div>
           <div>
@@ -48,11 +54,13 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:ankitasingh2356@gmail.com">
+                ankitasingh2356@gmail.com
+              </a>
             </Slide>
           </div>
         </div>
-        <div className="profiles">
+        {/* <div className="profiles">
           <Slide direction="left">
             <h1>Check my profiles</h1>
           </Slide>
@@ -86,7 +94,7 @@ const Footer = () => {
               </span>
             </Zoom>
           </div>
-        </div>
+        </div> */}
         <Fade>
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
@@ -95,26 +103,47 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
+          <form
+            id="contact-form"
+            onSubmit={clearForm}
+            action="https://getform.io/f/d9d1ff7c-7509-4974-98b8-5956ba82f103"
+            method="POST"
+            target="_blank"
+          >
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input
+                name="name"
+                type="text"
+                placeholder="Fullname..."
+                required
+              />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input
+                name="email"
+                type="email"
+                placeholder="Email..."
+                required
+              />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Message..."
+              ></textarea>
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </Slide>
       </Form>
