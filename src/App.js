@@ -4,6 +4,7 @@ import ProfComponent from "./components/Banner/ProfComponent";
 import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import SampleProjects from "./components/SampleProjects/Projects";
 import Services from "./components/Service/Services";
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      <SampleProjects />
       <LightColor>
-        <Footer />
+        <Clients />
       </LightColor>
+      <Footer />
     </Container>
   );
 }
