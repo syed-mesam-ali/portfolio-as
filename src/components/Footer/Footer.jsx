@@ -54,8 +54,8 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:ankitasingh2356@gmail.com">
-                ankitasingh2356@gmail.com
+              <a href="mailto:contact.businessas@gmail.com">
+                contact.businessas@gmail.com
               </a>
             </Slide>
           </div>
@@ -106,7 +106,7 @@ const Footer = () => {
           <form
             id="contact-form"
             onSubmit={clearForm}
-            action="https://getform.io/f/d9d1ff7c-7509-4974-98b8-5956ba82f103"
+            action="https://getform.io/f/1e3f0728-e1d7-446e-8a34-caed642cbfbe"
             method="POST"
             target="_blank"
           >

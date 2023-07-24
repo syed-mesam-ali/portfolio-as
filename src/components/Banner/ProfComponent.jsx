@@ -24,7 +24,7 @@ const ProfComponent = () => {
           <button>
             <a
               className="remove-a-decorations"
-              href="mailto:ankitasingh2356@gmail.com"
+              href="mailto:contact.businessas@gmail.com"
             >
               Let's talk
             </a>
