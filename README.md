@@ -2,7 +2,7 @@
 
 ## Live Site
 
-[Live](https://uxui-profile.netlify.app/)
+[Live](https://ankitas-portfolio.netlify.app/)
 
 ## Features
 
