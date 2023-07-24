@@ -44,7 +44,7 @@ const Footer = () => {
             </span>
             <Slide direction="left">
               {/* <a href="tel:+4733378901">+47 333 78 901</a> */}
-              <a href="#">-</a>
+              <a href="#">N/A</a>
             </Slide>
           </div>
           <div>
