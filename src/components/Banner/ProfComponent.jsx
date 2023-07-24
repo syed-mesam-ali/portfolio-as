@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import hero from "../../assets/profile-image/profileImg.png";
 
 const ProfComponent = () => {
   return (
@@ -13,15 +14,22 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Ankita Singh</h1>
+          <h3>Graphic Designer And Website Developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            Thanks for reaching me here. I have outclass expertise in various
+            fields of graphic design and website development which helps me to
+            create potential Branding.
           </p>
-          <button>Let's talk</button>
-          <Social>
+          <button>
+            <a
+              className="remove-a-decorations"
+              href="mailto:ankitasingh2356@gmail.com"
+            >
+              Let's talk
+            </a>
+          </button>
+          {/* <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
@@ -40,15 +48,12 @@ const ProfComponent = () => {
                 </a>
               </span>
             </div>
-          </Social>
+          </Social> */}
         </Texts>
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
-            alt="profile"
-          />
+          <img src={hero} alt="profile" />
         </Profile>
       </Slide>
     </Container>
@@ -71,6 +76,11 @@ const Container = styled.div`
 
   @media (max-width: 640px) {
     flex-direction: column;
+  }
+
+  .remove-a-decorations {
+    text-decoration: none;
+    color: unset;
   }
 `;
 const Texts = styled.div`

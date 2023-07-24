@@ -4,8 +4,14 @@ import ProfComponent from "./components/Banner/ProfComponent";
 import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import SampleProjects from "./components/SampleProjects/Projects";
 import Services from "./components/Service/Services";
 function App() {
+  console.log("%cCreated by : Syed Mesam Ali", "color:#26bfa5;font-size:24px");
+  console.log(
+    "%cEmail : syedmesamali@gmail.com",
+    "color:#26bfa5;font-size:14px"
+  );
   return (
     <Container>
       <Banner>
@@ -16,10 +22,11 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      <SampleProjects />
       <LightColor>
-        <Footer />
+        <Clients />
       </LightColor>
+      <Footer />
     </Container>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { MdDesignServices } from "react-icons/md";
 import { FiCodesandbox } from "react-icons/fi";
 import { CgWebsite } from "react-icons/cg";
+import { AiOutlineBars } from "react-icons/ai";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -18,26 +19,35 @@ const Services = () => {
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FiCodesandbox}
+            title={"Graphic Designer"}
+            disc={`
+            I've been working as a Freelance Graphic Designer for three years.
+            I have customized Social media posts, reels and videos, designed Brand logos, business cards,
+             Flyers, Brochure, letterheads and other business stationary for my clients' business 
+            `}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={CgWebsite}
+            title={"Web Developer"}
+            disc={`
+            Websites help businesses grow by expanding their online presence, 
+            reaching a broader audience, and providing a platform to showcase products or services, 
+            ultimately increasing customer engagement and sales. I create potent websites for my clients
+            `}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={AiOutlineBars}
+            title={"Brand Identity Creator"}
+            disc={`
+            Creating a brand identity is crucial as it helps businesses 
+            differentiate themselves from competitors, and build recognition and trust among customers, 
+            leading to increased brand loyalty and long-term success.
+            `}
           />
         </Slide>
       </Cards>
