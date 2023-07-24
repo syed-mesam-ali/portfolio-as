@@ -31,7 +31,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>-</p>
+            <p>India</p>
           </Slide>
         </div>
         <div className="links">
@@ -43,8 +43,8 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              {/* <a href="tel:+4733378901">+47 333 78 901</a> */}
-              <a href="/#">N/A</a>
+              <a href="tel:+918240923109">+91 82409 23109</a>
+              {/* <a href="/#">N/A</a> */}
             </Slide>
           </div>
           <div>
