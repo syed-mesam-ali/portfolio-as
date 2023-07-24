@@ -14,22 +14,34 @@ const Header = () => {
       </Logo>
       <Nav bar={bar}>
         <span>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={() => setBar(!bar)}>
+            Home
+          </a>
         </span>
         <span>
-          <a href="#service">Services</a>
+          <a href="#service" onClick={() => setBar(!bar)}>
+            Services
+          </a>
         </span>
         <span>
-          <a href="#project">Projects</a>
+          <a href="#project" onClick={() => setBar(!bar)}>
+            Projects
+          </a>
         </span>
         <span>
-          <a href="#sample-project">Samples</a>
+          <a href="#sample-project" onClick={() => setBar(!bar)}>
+            Samples
+          </a>
         </span>
         <span>
-          <a href="#client">Testimonials</a>
+          <a href="#client" onClick={() => setBar(!bar)}>
+            Testimonials
+          </a>
         </span>
         <span>
-          <a href="#footer">Portfolio</a>
+          <a href="#footer" onClick={() => setBar(!bar)}>
+            Portfolio
+          </a>
         </span>
       </Nav>
       <div onClick={() => setBar(!bar)} className="bars">
