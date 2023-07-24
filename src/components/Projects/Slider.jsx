@@ -6,7 +6,6 @@ import styled from "styled-components";
 // video imports
 import food_web_1 from "../../assets/recent-projects/video/food_web_1.mp4";
 import truck_1 from "../../assets/recent-projects/video/truck_1.mp4";
-import truck_2 from "../../assets/recent-projects/video/truck_2.mp4";
 // images imports
 import product_1 from "../../assets/recent-projects/images/product_1.png";
 import shoes_1 from "../../assets/recent-projects/images/shoes_1.png";
@@ -18,9 +17,6 @@ let data = [
   },
   {
     video: truck_1,
-  },
-  {
-    video: truck_2,
   },
   {
     img: product_1,
