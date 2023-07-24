@@ -6,12 +6,12 @@ import styled from "styled-components";
 // video imports
 import web_1 from "../../assets/sample-projects/video/web_1.mp4";
 import spa_1 from "../../assets/sample-projects/video/spa_1.mp4";
-import spa_2 from "../../assets/sample-projects/video/spa_2.mp4";
 // images imports
 import website_1 from "../../assets/sample-projects/images/website_1.jpg";
 import beautySpa_1 from "../../assets/sample-projects/images/beautySpa_1.jpg";
 import beautySpa_2 from "../../assets/sample-projects/images/beautySpa_2.jpg";
 import beautySpa_3 from "../../assets/sample-projects/images/beautySpa_3.png";
+import beautySpa_4 from "../../assets/sample-projects/images/beautySpa_4.jpg";
 import burger_1 from "../../assets/sample-projects/images/burger_1.png";
 import cake_1 from "../../assets/sample-projects/images/cake_1.jpg";
 
@@ -21,9 +21,6 @@ let data = [
   },
   {
     video: spa_1,
-  },
-  {
-    video: spa_2,
   },
   {
     img: website_1,
@@ -38,6 +35,9 @@ let data = [
   },
   {
     img: beautySpa_3,
+  },
+  {
+    img: beautySpa_4,
   },
   {
     img: burger_1,
