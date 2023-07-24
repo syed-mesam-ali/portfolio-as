@@ -10,6 +10,7 @@ import truck_2 from "../../assets/recent-projects/video/truck_2.mp4";
 // images imports
 import product_1 from "../../assets/recent-projects/images/product_1.png";
 import shoes_1 from "../../assets/recent-projects/images/shoes_1.png";
+import card_1 from "../../assets/recent-projects/images/card_1.png";
 
 let data = [
   {
@@ -28,6 +29,10 @@ let data = [
   {
     img: shoes_1,
     disc: "Client wanted a post for the products that were back in stock. Here's the post that I created.",
+  },
+  {
+    img: card_1,
+    disc: "Designed logo and business card for my client.",
   },
 ];
 
