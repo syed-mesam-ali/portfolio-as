@@ -1,5 +1,5 @@
 import React from "react";
-import { MdDesignServices } from "react-icons/md";
+// import { MdDesignServices } from "react-icons/md";
 import { FiCodesandbox } from "react-icons/fi";
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineBars } from "react-icons/ai";

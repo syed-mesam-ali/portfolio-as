@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { AiOutlineInstagram } from "react-icons/ai";
+// import { GiEarthAmerica } from "react-icons/gi";
+// import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import hero from "../../assets/profile-image/profileImg.png";
 

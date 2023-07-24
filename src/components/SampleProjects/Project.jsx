@@ -1,6 +1,4 @@
 import React from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
 import styled from "styled-components";
 
 const Project = (props) => {
@@ -18,7 +16,7 @@ const Project = (props) => {
           <p>
             {disc}
             {demo && (
-              <a href={demo} target="_blank">
+              <a href={demo} target="_blank" rel="noreferrer">
                 Demo
               </a>
             )}
