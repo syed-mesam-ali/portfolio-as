@@ -7,6 +7,11 @@ import Projects from "./components/Projects/Projects";
 import SampleProjects from "./components/SampleProjects/Projects";
 import Services from "./components/Service/Services";
 function App() {
+  console.log("%cCreated by : Syed Mesam Ali", "color:#26bfa5;font-size:24px");
+  console.log(
+    "%cEmail : syedmesamali@gmail.com",
+    "color:#26bfa5;font-size:14px"
+  );
   return (
     <Container>
       <Banner>
