@@ -1,18 +1,30 @@
 import React from "react";
+import { useRef } from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
 
 const Project = (props) => {
-  const { img, disc } = props.item;
+  const { img, disc, video, demo } = props.item;
   return (
     <Container className="project">
-      <img src={img} alt="project" />
-      <div className="disc">
-        <h1>Description</h1>
-        <p>
-          {disc}
-          <a href="/">demo</a>
-        </p>
-      </div>
+      {img ? (
+        <img src={img} alt="project" />
+      ) : (
+        <video src={video} controls autoPlay={true} muted loop />
+      )}
+      {disc ? (
+        <div className="disc">
+          <h1>Description</h1>
+          <p>
+            {disc}
+            {demo && (
+              <a href={demo} target="_blank">
+                Demo
+              </a>
+            )}
+          </p>
+        </div>
+      ) : null}
     </Container>
   );
 };
@@ -36,6 +48,11 @@ const Container = styled.div`
     height: 100%;
     object-fit: fill;
     transition: transform 400ms ease-in-out;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
   .disc {
     position: absolute;

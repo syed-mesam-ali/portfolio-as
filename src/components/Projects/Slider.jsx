@@ -3,27 +3,31 @@ import Slider from "react-slick";
 import Project from "./Project";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from "styled-components";
+// video imports
+import food_web_1 from "../../assets/recent-projects/video/food_web_1.mp4";
+import truck_1 from "../../assets/recent-projects/video/truck_1.mp4";
+import truck_2 from "../../assets/recent-projects/video/truck_2.mp4";
+// images imports
+import product_1 from "../../assets/recent-projects/images/product_1.png";
+import shoes_1 from "../../assets/recent-projects/images/shoes_1.png";
 
 let data = [
   {
-    img: "https://i.ibb.co/N9zRfDX/png-20230717-174032-0000.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    video: food_web_1,
   },
   {
-    img: "https://i.ibb.co/N9zRfDX/png-20230717-174032-0000.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    video: truck_1,
   },
   {
-    img: "https://i.ibb.co/N9zRfDX/png-20230717-174032-0000.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    video: truck_2,
   },
   {
-    img: "https://i.ibb.co/N9zRfDX/png-20230717-174032-0000.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    img: product_1,
+    disc: "My client needed a social media post for her new Beauty products launch. She added that she wanted a mention of 50% discount. And this is what I delivered.",
   },
   {
-    img: "https://i.ibb.co/N9zRfDX/png-20230717-174032-0000.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    img: shoes_1,
+    disc: "Client wanted a post for the products that were back in stock. Here's the post that I created.",
   },
 ];
 
