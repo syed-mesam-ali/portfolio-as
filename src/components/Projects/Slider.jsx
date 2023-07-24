@@ -41,6 +41,7 @@ var settings = {
   slidesToScroll: 1,
   initialSlide: 0,
   arrows: false,
+  lazyLoad: true,
   responsive: [
     {
       breakpoint: 990,
