@@ -19,7 +19,7 @@ const ProfComponent = () => {
           <p>
             Thanks for reaching me here. I have outclass expertise in various
             fields of graphic design and website development which helps me to
-            create potential Branding.
+            create 'Potential Branding'.
           </p>
           <button>
             <a
