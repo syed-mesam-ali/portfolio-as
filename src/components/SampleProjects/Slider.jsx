@@ -24,7 +24,7 @@ let data = [
   },
   {
     img: website_1,
-    disc: "Click the link to vist the Live Demo.",
+    disc: "Click on the link to vist the Live Demo.",
     demo: "https://gerichtdeutch.netlify.app/",
   },
   {
