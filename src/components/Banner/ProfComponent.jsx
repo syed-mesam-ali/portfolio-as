@@ -33,17 +33,17 @@ const ProfComponent = () => {
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a href="#">
                   <AiOutlineInstagram />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="#">
                   <GiEarthAmerica />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="#">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -118,43 +118,43 @@ const Texts = styled.div`
     }
   }
 `;
-const Social = styled.div`
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  p {
-    font-size: 0.9rem;
-    @media (max-width: 690px) {
-      font-size: 0.7rem;
-    }
-  }
+// const Social = styled.div`
+//   margin-top: 3rem;
+//   display: flex;
+//   align-items: center;
+//   gap: 1rem;
+//   p {
+//     font-size: 0.9rem;
+//     @media (max-width: 690px) {
+//       font-size: 0.7rem;
+//     }
+//   }
 
-  .social-icons {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    span {
-      width: 2.3rem;
-      height: 2rem;
-      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
-      position: relative;
-      transition: transform 400ms ease-in-out;
-      :hover {
-        transform: rotate(360deg);
-      }
-    }
+//   .social-icons {
+//     display: flex;
+//     align-items: center;
+//     gap: 1rem;
+//     span {
+//       width: 2.3rem;
+//       height: 2rem;
+//       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+//       background-color: #01be96;
+//       position: relative;
+//       transition: transform 400ms ease-in-out;
+//       :hover {
+//         transform: rotate(360deg);
+//       }
+//     }
 
-    a {
-      color: #fff;
-      position: absolute;
-      top: 55%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-`;
+//     a {
+//       color: #fff;
+//       position: absolute;
+//       top: 55%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+//   }
+// `;
 const Profile = styled.div`
   img {
     width: 25rem;
