@@ -7,9 +7,9 @@ import styled from "styled-components";
 import food_web_1 from "../../assets/recent-projects/video/food_web_1.mp4";
 import truck_1 from "../../assets/recent-projects/video/truck_1.mp4";
 // images imports
-import product_1 from "../../assets/recent-projects/images/product_1.png";
-import shoes_1 from "../../assets/recent-projects/images/shoes_1.png";
-import card_1 from "../../assets/recent-projects/images/card_1.png";
+import product_1 from "../../assets/recent-projects/images/product_1.jpg";
+import shoes_1 from "../../assets/recent-projects/images/shoes_1.jpg";
+import card_1 from "../../assets/recent-projects/images/card_1.jpg";
 
 let data = [
   {

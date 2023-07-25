@@ -4,10 +4,10 @@ import styled from "styled-components";
 import ClientSlider from "./ClientSlider";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from "react-awesome-reveal";
-import maleAvatar1 from "../../assets/profile-avatar/male/male_1.png";
-import maleAvatar2 from "../../assets/profile-avatar/male/male_2.png";
-import femaleAvatar1 from "../../assets/profile-avatar/female/female_1.png";
-import femaleAvatar2 from "../../assets/profile-avatar/female/female_2.png";
+import maleAvatar1 from "../../assets/profile-avatar/male/male_1.jpg";
+import maleAvatar2 from "../../assets/profile-avatar/male/male_2.jpg";
+import femaleAvatar1 from "../../assets/profile-avatar/female/female_1.jpg";
+import femaleAvatar2 from "../../assets/profile-avatar/female/female_2.jpg";
 
 let clients = [
   {

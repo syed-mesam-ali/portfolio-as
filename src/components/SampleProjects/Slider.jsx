@@ -10,9 +10,9 @@ import spa_1 from "../../assets/sample-projects/video/spa_1.mp4";
 import website_1 from "../../assets/sample-projects/images/website_1.jpg";
 import beautySpa_1 from "../../assets/sample-projects/images/beautySpa_1.jpg";
 import beautySpa_2 from "../../assets/sample-projects/images/beautySpa_2.jpg";
-import beautySpa_3 from "../../assets/sample-projects/images/beautySpa_3.png";
+import beautySpa_3 from "../../assets/sample-projects/images/beautySpa_3.jpg";
 import beautySpa_4 from "../../assets/sample-projects/images/beautySpa_4.jpg";
-import burger_1 from "../../assets/sample-projects/images/burger_1.png";
+import burger_1 from "../../assets/sample-projects/images/burger_1.jpg";
 import cake_1 from "../../assets/sample-projects/images/cake_1.jpg";
 
 let data = [
