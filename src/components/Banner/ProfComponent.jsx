@@ -5,6 +5,7 @@ import styled from "styled-components";
 // import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import hero from "../../assets/profile-image/profileImg.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ProfComponent = () => {
   return (
@@ -53,7 +54,8 @@ const ProfComponent = () => {
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img src={hero} alt="profile" />
+          <LazyLoadImage alt="profile" src={hero} effect="blur" />
+          {/* <img src={hero} alt="profile" /> */}
         </Profile>
       </Slide>
     </Container>

@@ -6,6 +6,9 @@ import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import SampleProjects from "./components/SampleProjects/Projects";
 import Services from "./components/Service/Services";
+
+import { LazyLoadComponent } from "react-lazy-load-image-component";
+
 function App() {
   console.log("%cCreated by : Syed Mesam Ali", "color:#26bfa5;font-size:24px");
   console.log(
@@ -19,13 +22,19 @@ function App() {
         <ProfComponent />
       </Banner>
       <Services />
-      <LightColor>
-        <Projects />
-      </LightColor>
-      <SampleProjects />
-      <LightColor>
-        <Clients />
-      </LightColor>
+      <LazyLoadComponent>
+        <LightColor>
+          <Projects />
+        </LightColor>
+      </LazyLoadComponent>
+      <LazyLoadComponent>
+        <SampleProjects />
+      </LazyLoadComponent>
+      <LazyLoadComponent>
+        <LightColor>
+          <Clients />
+        </LightColor>
+      </LazyLoadComponent>
       <Footer />
     </Container>
   );
