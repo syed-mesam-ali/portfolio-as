@@ -2,13 +2,20 @@ import React from "react";
 import styled from "styled-components";
 
 const Project = (props) => {
-  const { img, disc, video, demo } = props.item;
+  const { img, disc, video, demo, poster } = props.item;
   return (
     <Container className="project">
       {img ? (
         <img src={img} alt="project" />
       ) : (
-        <video src={video} controls autoPlay={true} muted loop />
+        <video
+          src={video}
+          controls
+          autoPlay={false}
+          muted
+          preload="none"
+          poster={poster}
+        />
       )}
       {disc ? (
         <div className="disc">

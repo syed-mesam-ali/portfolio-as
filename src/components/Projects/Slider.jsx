@@ -6,6 +6,9 @@ import styled from "styled-components";
 // video imports
 import food_web_1 from "../../assets/recent-projects/video/food_web_1.mp4";
 import truck_1 from "../../assets/recent-projects/video/truck_1.mp4";
+//video thumbnail
+import food_web_1_thumb from "../../assets/recent-projects/video/thumbnail/food_web_1.jpg";
+import truck_1_thumb from "../../assets/recent-projects/video/thumbnail/truck_1.jpg";
 // images imports
 import product_1 from "../../assets/recent-projects/images/product_1.jpg";
 import shoes_1 from "../../assets/recent-projects/images/shoes_1.jpg";
@@ -14,9 +17,11 @@ import card_1 from "../../assets/recent-projects/images/card_1.jpg";
 let data = [
   {
     video: food_web_1,
+    poster: food_web_1_thumb,
   },
   {
     video: truck_1,
+    poster: truck_1_thumb,
   },
   {
     img: product_1,

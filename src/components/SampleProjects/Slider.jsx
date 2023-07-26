@@ -6,6 +6,9 @@ import styled from "styled-components";
 // video imports
 import web_1 from "../../assets/sample-projects/video/web_1.mp4";
 import spa_1 from "../../assets/sample-projects/video/spa_1.mp4";
+// video thumbnails
+import web_1_thumbnail from "../../assets/sample-projects/video/thumbnail/web_1.jpg";
+import spa_1_thumbnail from "../../assets/sample-projects/video/thumbnail/spa_1.jpg";
 // images imports
 import website_1 from "../../assets/sample-projects/images/website_1.jpg";
 import beautySpa_1 from "../../assets/sample-projects/images/beautySpa_1.jpg";
@@ -18,9 +21,11 @@ import cake_1 from "../../assets/sample-projects/images/cake_1.jpg";
 let data = [
   {
     video: web_1,
+    poster: web_1_thumbnail,
   },
   {
     video: spa_1,
+    poster: spa_1_thumbnail,
   },
   {
     img: website_1,
