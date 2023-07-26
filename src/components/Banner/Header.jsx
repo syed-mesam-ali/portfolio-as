@@ -40,7 +40,7 @@ const Header = () => {
         </span>
         <span>
           <a href="#footer" onClick={() => setBar(!bar)}>
-            Portfolio
+            Contact
           </a>
         </span>
       </Nav>
