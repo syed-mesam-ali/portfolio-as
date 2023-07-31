@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { GiCandleFlame } from "react-icons/gi";
+import NavLinks from "./NavLinks";
 
 const Header = () => {
   const [bar, setBar] = useState(false);
+  const navBarData = [
+    { id: "home", name: "Home" },
+    { id: "service", name: "Services" },
+    { id: "project", name: "Projects" },
+    { id: "sample-project", name: "Samples" },
+    { id: "client", name: "Testimonials" },
+    { id: "footer", name: "Contact" },
+  ];
   return (
     <Container bar={bar}>
       <Logo>
@@ -13,36 +22,15 @@ const Header = () => {
         <h1>Portfolio</h1>
       </Logo>
       <Nav bar={bar}>
-        <span>
-          <a href="#home" onClick={() => setBar(!bar)}>
-            Home
-          </a>
-        </span>
-        <span>
-          <a href="#service" onClick={() => setBar(!bar)}>
-            Services
-          </a>
-        </span>
-        <span>
-          <a href="#project" onClick={() => setBar(!bar)}>
-            Projects
-          </a>
-        </span>
-        <span>
-          <a href="#sample-project" onClick={() => setBar(!bar)}>
-            Samples
-          </a>
-        </span>
-        <span>
-          <a href="#client" onClick={() => setBar(!bar)}>
-            Testimonials
-          </a>
-        </span>
-        <span>
-          <a href="#footer" onClick={() => setBar(!bar)}>
-            Contact
-          </a>
-        </span>
+        {navBarData.map((nav, index) => (
+          <NavLinks
+            key={index}
+            id={nav.id}
+            name={nav.name}
+            bar={bar}
+            setBar={setBar}
+          />
+        ))}
       </Nav>
       <div onClick={() => setBar(!bar)} className="bars">
         <div className="bar"></div>

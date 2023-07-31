@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import LazyLoad from "react-lazyload";
 import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
 import Clients from "./components/Clients/Clients";
@@ -6,8 +7,6 @@ import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import SampleProjects from "./components/SampleProjects/Projects";
 import Services from "./components/Service/Services";
-
-import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 function App() {
   console.log("%cCreated by : Syed Mesam Ali", "color:#26bfa5;font-size:24px");
@@ -21,21 +20,28 @@ function App() {
         <Header />
         <ProfComponent />
       </Banner>
+
       <Services />
-      <LazyLoadComponent>
+
+      <LazyLoad offset={100} placeholder={<div id="project"></div>}>
         <LightColor>
           <Projects />
         </LightColor>
-      </LazyLoadComponent>
-      <LazyLoadComponent>
+      </LazyLoad>
+
+      <LazyLoad offset={100} placeholder={<div id="sample-project"></div>}>
         <SampleProjects />
-      </LazyLoadComponent>
-      <LazyLoadComponent>
+      </LazyLoad>
+
+      <LazyLoad offset={100} placeholder={<div id="client"></div>}>
         <LightColor>
           <Clients />
         </LightColor>
-      </LazyLoadComponent>
-      <Footer />
+      </LazyLoad>
+
+      <LazyLoad offset={100} placeholder={<div id="footer"></div>}>
+        <Footer />
+      </LazyLoad>
     </Container>
   );
 }
